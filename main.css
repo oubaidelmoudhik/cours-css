@@ -1,0 +1,25 @@
+.container {
+  /* background-color: aliceblue; */
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 5px;
+}
+.header {
+  background-color: aqua;
+  grid-column: 1 / 4;
+}
+.sidebar {
+  background-color: beige;
+}
+.content {
+  background-color: black;
+  color: white;
+  grid-column: 2 / 4;
+}
+.footer {
+  background-color: brown;
+  color: white;
+  grid-column: 1 / 4;
+}
