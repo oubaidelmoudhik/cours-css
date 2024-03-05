@@ -9,10 +9,10 @@
 .header {
   background-color: aqua;
   grid-column: 1 / 4;
+  color: red;
 }
 .sidebar {
   background-color: beige;
-  /* ... */
 }
 .content {
   background-color: black;
